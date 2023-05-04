@@ -1,18 +1,13 @@
-import { H1 } from "@gilbarbara/components";
-
 import styles from "./Header.module.css";
 
 export function Header() {
   return (
-    <H1
-      className={styles.main}
-      align="center"
-      letterSpacing="0.1em"
-      margin={0}
-      variant="secondary"
-    >
-      Deskly
-    </H1>
+    <div className={styles.main}>
+      <h1 className={styles.header}>Deskly</h1>
+      <p className={styles.subHeader}>
+        Upload an image of your home office. We will identify the objects in it.
+      </p>
+    </div>
   );
 }
 

@@ -1,0 +1,16 @@
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.fileInput {
+  display: none;
+}
+
+.customLabel {
+  display: inline-block;
+  background-color: #2a5d65;
+  color: white;
+  padding: 8px 16px;
+  cursor: pointer;
+}
